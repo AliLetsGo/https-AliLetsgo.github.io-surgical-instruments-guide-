@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgical Business</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+        <div class="hero">
+            <h1>Welcome to Our Surgical Practice</h1>
+            <p>Your health, our priority. Professional surgical care for your needs.</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in a wide range of surgical procedures with a focus on patient care and recovery. Our experienced surgeons and medical staff are committed to ensuring your health and safety.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>General Surgery</h3>
+                <p>We provide comprehensive general surgery services with a focus on the highest standards of care.</p>
+            </div>
+            <div class="service-card">
+                <h3>Orthopedic Surgeries</h3>
+                <p>Specialized treatments for bone, joint, and muscle injuries and conditions.</p>
+            </div>
+            <div class="service-card">
+                <h3>Cosmetic Procedures</h3>
+                <p>Enhance your appearance with our safe and effective cosmetic surgery options.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Surgical Business. All rights reserved.</p>
+    </footer>
+</body>
+</html>
